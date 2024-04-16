@@ -1,4 +1,4 @@
-from errors import *
+from .errors import *
 from .payment import Payment
 
 from .sandboxed_initiator import SandboxedInitiator
