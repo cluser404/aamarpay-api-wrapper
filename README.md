@@ -1,5 +1,13 @@
 # aamarpay-api-wrapper
 
+## Installation
+
+Run the following command to install
+
+```shell
+pip install git+https://github.com/cluser404/aamarpay-api-wrapper
+```
+
 ## Basic Usage
 ```python
 # test.py
@@ -30,7 +38,7 @@ initiaion_response = initiator.initiate_payment(payment)
 print(initiaion_response.payment_url)
 ```
 
-running the above code will give you a URL
+Running the above code will give you a URL
 ```shell
 $ python test.py
 https://sandbox.aamarpay.com/paynow.php?track=AAM123918230192831029
